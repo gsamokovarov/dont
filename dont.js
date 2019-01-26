@@ -3,4 +3,4 @@ setInterval(() => {
   if (element && element.parentNode) {
     element.parentNode.removeChild(element)
   }
-}, 1000)
+}, 500 /* ms */)
