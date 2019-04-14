@@ -2,10 +2,10 @@
    "content_scripts": [
      {
        "matches": ["*://*.github.com/receipt-bank/*"],
-       "js": ["dont.js"]
+       "js": ["index.js"]
      }
    ],
-   "description": "Don't merge Pull Requests under Receipt Bank",
+   "description": "Don't Cha wish you merge PRs just like me? 🙅",
    "icons": {
      "128": "icon-128.png",
      "64": "icon-64.png",
@@ -13,7 +13,7 @@
      "16": "icon-16.png"
    },
    "manifest_version": 2,
-   "name": "Don't",
-   "short_name": "Don't",
-   "version": "0.2"
+   "name": "Don't Cha",
+   "short_name": "Don't Cha",
+   "version": "0.3"
 }
